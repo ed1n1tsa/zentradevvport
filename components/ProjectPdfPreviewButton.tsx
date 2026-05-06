@@ -16,11 +16,6 @@ export function ProjectPdfPreviewButton({
   label,
 }: ProjectPdfPreviewButtonProps) {
   const [open, setOpen] = useState(false);
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
 
   useEffect(() => {
     if (!open) return;
@@ -43,7 +38,7 @@ export function ProjectPdfPreviewButton({
         {label}
       </Button>
 
-      {mounted && open
+      {typeof window !== "undefined" && open
         ? createPortal(
             <div
               className="fixed inset-0 z-[130] bg-black/85 backdrop-blur-[2px]"

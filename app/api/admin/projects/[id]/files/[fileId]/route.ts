@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 
 import { createServerSupabaseAdminClient } from "@/lib/supabase-server";
-import { assertAdminAuthenticated } from "../../../../_auth";
+import { assertAdminAuthenticated } from "../../../_auth";
 
 function pathFromPublicUrl(url: string) {
   const marker = "/storage/v1/object/public/project-media/";

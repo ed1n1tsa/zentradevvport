@@ -9,7 +9,7 @@ import { ProjectPdfPreviewButton } from "@/components/ProjectPdfPreviewButton";
 import { cn } from "@/lib/utils";
 import { Link } from "@/i18n/navigation";
 import type { AppLocale } from "@/lib/data";
-import { getLocalized, projectCategories } from "@/lib/data";
+import { getLocalized } from "@/lib/data";
 import {
   getProjectGalleryBySlug,
   getProjectPdfBySlug,
@@ -153,8 +153,6 @@ export default async function ProjectDetailPage({ params }: Props) {
   const t = await getTranslations({ locale, namespace: "ProjectDetail" });
   const loc = locale as AppLocale;
   const extras = detailExtras[loc];
-  const categoryLabel =
-    projectCategories.find((c) => c.id === project.category)?.label[loc] ?? "";
 
   return (
     <article className="mx-auto max-w-6xl px-4 py-16 sm:px-6">

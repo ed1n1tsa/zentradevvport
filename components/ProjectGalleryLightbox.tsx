@@ -11,11 +11,6 @@ interface ProjectGalleryLightboxProps {
 
 export function ProjectGalleryLightbox({ images }: ProjectGalleryLightboxProps) {
   const [activeImage, setActiveImage] = useState<string | null>(null);
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
 
   useEffect(() => {
     if (!activeImage) return;
@@ -53,7 +48,7 @@ export function ProjectGalleryLightbox({ images }: ProjectGalleryLightboxProps) 
         ))}
       </div>
 
-      {mounted && activeImage
+      {typeof window !== "undefined" && activeImage
         ? createPortal(
         <div
           className="fixed inset-0 z-[120] flex items-center justify-center bg-black/80 p-4 backdrop-blur-[2px]"
