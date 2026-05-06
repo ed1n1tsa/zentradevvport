@@ -1,0 +1,167 @@
+{
+  "LocaleLayout": {
+    "title": "ZENTRA — sites, apps, and AI for business",
+    "description": "ZENTRA builds web, mobile, Telegram, and AI products end to end."
+  },
+  "Nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About",
+    "process": "Process",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "admin": "Admin",
+    "clientArea": "Client area"
+  },
+  "Hero": {
+    "badge": "Digital · Product · AI",
+    "title": "ZENTRA — we build websites, apps, and AI solutions for business",
+    "subtitle": "We deliver websites, mobile apps, Telegram bots, e‑commerce, and AI assistants end to end.",
+    "primaryCta": "Request a quote",
+    "secondaryCta": "View projects"
+  },
+  "Services": {
+    "title": "Services",
+    "subtitle": "Full cycle—from strategy to post‑launch support.",
+    "more": "Learn more"
+  },
+  "Projects": {
+    "title": "Featured work",
+    "subtitle": "Case studies focused on speed, quality, and measurable outcomes.",
+    "viewAll": "All projects",
+    "filterLabel": "Category",
+    "all": "All",
+    "empty": "No projects in this category yet."
+  },
+  "Why": {
+    "title": "Why ZENTRA",
+    "subtitle": "Engineering culture, thoughtful UX, and transparent milestones."
+  },
+  "Process": {
+    "title": "Our process",
+    "subtitle": "A clear pipeline from idea to a stable release.",
+    "seeDetails": "More about the process"
+  },
+  "Testimonials": {
+    "title": "Testimonials",
+    "subtitle": "Teams that care about the product—not just the deadline."
+  },
+  "Contact": {
+    "title": "Start a project",
+    "subtitle": "Tell us briefly what you need—we’ll reply with a proposed timeline.",
+    "name": "Name",
+    "phone": "Phone",
+    "projectType": "Project type",
+    "description": "Project details",
+    "submit": "Send request",
+    "success": "Request received. We’ll get back to you soon.",
+    "error": "Please check the form fields."
+  },
+  "ProjectTypes": {
+    "site": "Website",
+    "mobile": "Mobile app",
+    "telegram": "Telegram bot",
+    "ai": "AI assistant",
+    "shop": "E‑commerce",
+    "other": "Other"
+  },
+  "Footer": {
+    "rights": "© {year} ZENTRA. All rights reserved.",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "built": "Built with Next.js · Supabase · shadcn/ui"
+  },
+  "ProjectsPage": {
+    "title": "Projects",
+    "subtitle": "A selection of work—from landing pages to complex platforms.",
+    "empty": "No projects in this category yet."
+  },
+  "ProjectDetail": {
+    "stack": "Stack",
+    "year": "Year",
+    "cta": "Discuss a similar build",
+    "back": "Back to projects"
+  },
+  "ServiceDetail": {
+    "back": "Back to home",
+    "howTitle": "How we deliver this service",
+    "worksCta": "Our work"
+  },
+  "About": {
+    "title": "About ZENTRA",
+    "p1": "ZENTRA is a full‑stack micro‑agency: design, engineering, AI, and long‑term care. We build digital products that stay fast and maintainable over time.",
+    "p2": "We work closely with stakeholders: align on goals, define success criteria, and ship releases tied to clear metrics.",
+    "card1Title": "Product thinking",
+    "card1": "Value and flows first—then pixels and code.",
+    "card2Title": "Reliable engineering",
+    "card2": "TypeScript, tests, CI/CD, safe releases, and code review.",
+    "card3Title": "Practical AI",
+    "card3": "LLMs, RAG, and automation—only when it truly saves time."
+  },
+  "ProcessPage": {
+    "title": "Process",
+    "subtitle": "We work in the open: regular demos, clear status, predictable timelines."
+  },
+  "ContactPage": {
+    "title": "Contact",
+    "subtitle": "Tell us what you need to build—we’ll respond within a business day."
+  },
+  "Admin": {
+    "loginTitle": "Admin sign in",
+    "email": "Email",
+    "password": "Password",
+    "signIn": "Sign in",
+    "note": "UI only—Supabase auth will be wired later.",
+    "brand": "ZENTRA Admin",
+    "nav": {
+      "dashboard": "Dashboard",
+      "projects": "Projects",
+      "requests": "Leads"
+    },
+    "stats": {
+      "projects": "Projects",
+      "requests": "Leads",
+      "clients": "Active clients",
+      "inProgress": "In progress"
+    },
+    "projects": {
+      "title": "Projects",
+      "add": "Add project",
+      "name": "Name",
+      "client": "Client",
+      "status": "Status",
+      "updated": "Updated"
+    },
+    "requests": {
+      "title": "Leads",
+      "name": "Name",
+      "phone": "Phone",
+      "type": "Type",
+      "status": "Status",
+      "date": "Date"
+    },
+    "status": {
+      "active": "Active",
+      "paused": "Paused",
+      "done": "Done",
+      "new": "New",
+      "in_review": "In review",
+      "closed": "Closed"
+    }
+  },
+  "Client": {
+    "loginTitle": "Client portal",
+    "signIn": "Sign in",
+    "note": "UI placeholder. Auth and live data will arrive with Supabase.",
+    "project": "Project",
+    "stage": "Current stage",
+    "progress": "Progress",
+    "deadline": "Deadline",
+    "tasks": "Tasks",
+    "files": "Files",
+    "chat": "Messages",
+    "payments": "Payments",
+    "messagePlaceholder": "Message the team…",
+    "send": "Send"
+  }
+}
